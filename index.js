@@ -8,5 +8,5 @@ document.getElementById("submit").onclick = function(){
   weight = Number(weight);
   BMI = weight / height;
   //console.log(BMI);
-  document.getElementById("result").textContent = `Your are BMI : ${BMI}`;
+  document.getElementById("result").textContent = `Your are BMI: ${BMI}`;
 }
