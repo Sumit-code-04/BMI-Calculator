@@ -7,5 +7,6 @@ document.getElementById("submit").onclick = function(){
   weight = document.getElementById("input2").value ;
   weight = Number(weight);
   BMI = weight / height;
+  BMI = Math.trunc(BMI);
   document.getElementById("result").textContent = `Your are BMI: ${BMI}`;
 }
